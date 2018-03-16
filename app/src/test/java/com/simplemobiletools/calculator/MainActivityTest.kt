@@ -58,7 +58,7 @@ class MainActivityTest {
 
     @Test
     fun divisionTest() {
-        val res = calcResult(6.0, DIVIDE, 3.0)
+        val res = calcResult(6.0, DIVIDE, 2.0)
         assertEquals("3", res)
         checkFormula("6/2")
     }
