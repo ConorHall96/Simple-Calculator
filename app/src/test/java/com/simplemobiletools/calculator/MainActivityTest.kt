@@ -58,9 +58,9 @@ class MainActivityTest {
 
     @Test
     fun divisionTest() {
-        val res = calcResult(18.25, DIVIDE, 5.0)
-        assertEquals("3.65", res)
-        checkFormula("18.25/5")
+        val res = calcResult(6.0, DIVIDE, 3.0)
+        assertEquals("3", res)
+        checkFormula("6/2")
     }
 
     @Test
